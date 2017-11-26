@@ -25,10 +25,10 @@
          <p class="browser-upgrade__text">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
       </div>
       <![endif]-->
-    <header>
+    <header id="top">
         <nav class="nav" id="responsive-nav"> 
-          <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a> 
-          <a href="#portofolio"><i class="fa fa-briefcase" aria-hidden="true"></i> Portofolio</a>           
+          <a href="#top"><i class="fa fa-home" aria-hidden="true"></i> Home</a> 
+          <a href="#portofolio"><i class="fa fa-briefcase" aria-hidden="true"></i> Work</a>           
           <a href="#contact"><i class="fa fa-map-marker" aria-hidden="true"></i> Contact</a> 
           <a href="#" class="icon" onclick="responsiveNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>            
       </nav>
@@ -46,15 +46,29 @@
         <!-- START INFO-RIGHT -->
         <div class="scroll">
             <p>Scroll down.</p>
+            <a href="#about-me">
             <div class="mouse">
                 <div class="scroller"> </div>
             </div>
+        </a>
         </div>
     </div>
     <!-- END INFO-RIGHT -->
-    <div class="container3" id="container3">
+    <div id="about-me">
+        <!-- START ABOUT-ME -->
+        <h2>BACKGROUND</h2>
+        <img id="profile" src="https://cdn.pbrd.co/images/GVryAE1.jpg">
+        <p><span>Hello</span>. My Name is Andrei. <br/>
+        	I enjoy turning complex problems into easy, <span class="blue">human readable solutions</span>, and I'm really <span class="blue">passionate about coding</span>.
+        	I grew up in Cluj-Napoca, which is a friendly city located in the heart of <a href="https://en.wikipedia.org/wiki/Transylvania" target="_blank">Transylvania</a>, Romania. 
+        	 Having studied social sciences for 5 years, helped me better the people around me, and made me realize that sometimes a small effort from yourself can make a huge difference in another's person's life.<br/>
+        	 <span class="blue underline">I code for free for NGO's who support social causes.</span></p>
+
+
+	</div>
+    <div id="skills">
         <!-- START CONTAINER3 -->
-        <h2>SKILLS</h2>
+        <h2>MY SKILLS</h2>
         <h3>1.Web</h3>
         <ul>
             <div class="grey">
@@ -64,16 +78,16 @@
                 <li id="css">&nbsp;&nbsp;&nbsp;&nbsp;CSS</li>
             </div>
             <div class="grey">
-                <li id="wordpress">&nbsp;&nbsp;&nbsp;&nbsp;Wordpress</li>
+                <li id="wordpress">&nbsp;&nbsp;&nbsp;&nbsp;JavaScript</li>
             </div>
             <div class="grey">
-                <li id="bootstrap">&nbsp;&nbsp;&nbsp;&nbsp;Bootstrap</li>
+                <li id="bootstrap">&nbsp;&nbsp;&nbsp;&nbsp;jQuery</li>
             </div>
             <div class="grey">
-                <li id="javascript">&nbsp;&nbsp;&nbsp;&nbsp;Javascript</li>
+                <li id="javascript">&nbsp;&nbsp;&nbsp;&nbsp;Wordpress</li>
             </div>
             <div class="grey">
-                <li id="jquery">&nbsp;&nbsp;&nbsp;&nbsp;jQuery</li>
+                <li id="jquery">&nbsp;&nbsp;&nbsp;&nbsp;Booststrap</li>
             </div>
             <div class="grey">
                 <li id="csharp">&nbsp;&nbsp;&nbsp;&nbsp;C#</li>
@@ -88,99 +102,177 @@
                 <li id="soft">&nbsp;&nbsp;&nbsp;&nbsp;Soft skills</li>
             </div>
             <div class="grey">
+                <li id="singing">&nbsp;&nbsp;&nbsp;&nbsp;Singing</li>
+            </div>
+            <div class="grey">
                 <li id="humor">&nbsp;&nbsp;&nbsp;&nbsp;Humour</li>
             </div>
         </ul>
     </div>
-    <!-- END CONTAINER3 -->
+    <!-- END SKILLS CONTAINER -->
    <div id="portofolio">
     <!-- START PORTOFOLIO -->
-    <h2>PORTOFOLIO</h2>
-    <figure class="first">
-      <a href="https://codepen.io/andreimarian/full/RjVywe/" target="_blank"><img src="https://cdn.pbrd.co/images/GViEtu8.jpg"></a>
-      <figcaption>
+    	<h2>WORK</h2>
+   		<div class="container">
+  			<img src="https://cdn.pbrd.co/images/GViEtu8.jpg" alt="Avatar" class="image">
+  			<a href="https://codepen.io/andreimarian/full/RjVywe/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+		<figcaption>
         Project 1. Simple Product Manager
       </figcaption>
-    </figure>
-    <figure class="second">
-      <a href="https://codepen.io/andreimarian/full/JOGyqp/" target="_blank"><img src="https://cdn.pbrd.co/images/GViDlN1.jpg"></a>
-      <figcaption>
+
+	<div class="container">
+  			<img src="https://cdn.pbrd.co/images/GViDlN1.jpg">
+  			 <a href="https://codepen.io/andreimarian/full/JOGyqp/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+<figcaption>
         Project 2. Watch Shop
       </figcaption>
-    </figure>
-    <figure class="third">
-      <a href="https://codepen.io/andreimarian/full/OOJZJP/" target="_blank"><img src="https://cdn.pbrd.co/images/GViGYqM.jpg"></a>
-      <figcaption>
-        Project 3. Architecture Site
-      </figcaption>
-    </figure>
-    <figure class="fourth">
-      <a href="https://codepen.io/andreimarian/full/EbYGQM/" target="_blank"><img src="https://cdn.pbrd.co/images/GViHo64.jpg"></a>
-      <figcaption>
+
+<div class="container">
+  			<img src="https://cdn.pbrd.co/images/GViHo64.jpg">
+  			 <a href="https://codepen.io/andreimarian/full/EbYGQM/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+<figcaption>
         Project 4. Sticky Notes
       </figcaption>
-    </figure>
-    <figure class="fifth">
-      <a href="https://codepen.io/andreimarian/full/mBxzXJ/" target="_blank"><img src="https://cdn.pbrd.co/images/GViREdR.jpg"></a>
+ 
+<div class="container">
+  			<img src="https://cdn.pbrd.co/images/GViREdR.jpg">
+  			 <a href="https://codepen.io/andreimarian/full/mBxzXJ/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
       <figcaption>
-        Project 5. CSS IPHONE DESIGN
+        Project 5. Iphone Design
       </figcaption>
-    </figure>
-    <figure class="sixth">
-      <a href="https://codepen.io/andreimarian/full/zEXaRj/" target="_blank"><img src="https://cdn.pbrd.co/images/GViVk1D.jpg"></a>
-      <figcaption>
-        Project 6.Romanian CNP Validator
+
+      <div class="container">
+  			<img src="https://cdn.pbrd.co/images/GViVk1D.jpg">
+  			 <a href="https://codepen.io/andreimarian/full/zEXaRj/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+  	<figcaption>
+        Project 6. Romanian CNP Validator
       </figcaption>
-    </figure>
-    <figure class="seventh">
-      <a href="https://codepen.io/andreimarian/full/XeZyQK/" target="_blank"><img src="https://cdn.pbrd.co/images/GOBurffX.png"></a>
-      <figcaption>
-        Project 7. HTML/CSS REGISTRATION FORM
+
+   <div class="container">
+  			<img src="https://cdn.pbrd.co/images/GOBurffX.png">
+  			 <a href="https://codepen.io/andreimarian/full/XeZyQK/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+     <figcaption>
+        Project 7. Simple Registration Form
       </figcaption>
-    </figure>
-    <figure class="eighth">
-      <a href="https://codepen.io/andreimarian/full/YrmKGe/" target="_blank"><img src="https://cdn.pbrd.co/images/GViTxHh.jpg"></a>
-      <figcaption>
-        Project 8. Another HTML/CSS REGISTRATION FORM
+
+       <div class="container">
+  			<img src="https://cdn.pbrd.co/images/GViTxHh.jpg">
+  			 <a href="https://codepen.io/andreimarian/full/YrmKGe/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+ <figcaption>
+        Project 8. Another Registration Form
       </figcaption>
-    </figure>
-    <figure class="ninth">
-      <a href="https://codepen.io/andreimarian/full/KXyWGQ/" target="_blank"><img src="https://cdn.pbrd.co/images/GOBAbaE.png"></a>
-      <figcaption>
-        Project 9. CONSILIERE GENETICA (Ongoing)
+
+ <div class="container">
+  			<img src="https://cdn.pbrd.co/images/GOBAbaE.png">
+  			 <a href="https://codepen.io/andreimarian/full/KXyWGQ/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+<figcaption>
+        Project 9. Genetic Counseling (Ongoing)
       </figcaption>
-    </figure>
-    <figure class="tenth">
-      <a href="https://codepen.io/andreimarian/full/qVpGyP/" target="_blank"><img src="https://cdn.pbrd.co/images/GViIkcvS.jpg"></a>
-      <figcaption>
+
+       <div class="container">
+  			<img src="https://cdn.pbrd.co/images/GViIkcvS.jpg">
+  			 <a href="https://codepen.io/andreimarian/full/qVpGyP/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+ <figcaption>
         Project 10. Simple Tip Calculator
       </figcaption>
-    </figure>
-    <figure class="eleventh">
-      <a href="https://codepen.io/andreimarian/full/QqvZZE/" target="_blank"><img src="https://cdn.pbrd.co/images/GOBANyP.png"></a>
-      <figcaption>
+
+          <div class="container">
+  			<img src="https://cdn.pbrd.co/images/GOBANyP.png">
+  			 <a href="https://codepen.io/andreimarian/full/QqvZZE/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+ <figcaption>
         Project 11.TRIBUTE PAGE (freeCodeCamp)
       </figcaption>
-    </figure>
-    <figure class="twelfth">
-      <a href="https://codepen.io/andreimarian/full/aLLYzw/" target="_blank"><img src="https://cdn.pbrd.co/images/GVju1XM.jpg"></a>
-      <figcaption>
-        Project 12. CSS PLANETS ANIMATION
+
+
+  <div class="container">
+  			<img src="https://cdn.pbrd.co/images/GVju1XM.jpg">
+  			 <a href="https://codepen.io/andreimarian/full/aLLYzw/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+    <figcaption>
+        Project 12. CSS Planets Animation
       </figcaption>
-    </figure>
-    <figure class="thirteenth">
-      <a href="https://codepen.io/andreimarian/full/PJjvyg/" target="_blank"><img src="https://cdn.pbrd.co/images/GOBBmKY.png"></a>
+
+      <div class="container">
+  			<img src="https://cdn.pbrd.co/images/GOBBmKY.png">
+  			 <a href="https://codepen.io/andreimarian/full/PJjvyg/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
       <figcaption>
-        Project 13. TRIBUTE PAGE (BOOTSTRAP)
+        Project 13. Tribute Page (BOOTSTRAP)
       </figcaption>
-    </figure>
-    <figure class="fourteenth">
-      <a href="http://findingmyway.ro/" target="_blank"><img src="https://cdn.pbrd.co/images/GOKHgfTk.png"></a>
-      <figcaption>
-        Project 14. FINDING MY WAY.RO (WORDPRESS)
+
+      <div class="container">
+  			<img src="https://cdn.pbrd.co/images/GOKHgfTk.png">
+  			 <a href="http://findingmyway.ro/" target="_blank"> <!-- not working on all browsers -->
+  				<div class="overlay">
+    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+  				</div>
+			</a>
+		</div>
+ <figcaption>
+        Project 14. Finding My Way Romania (WORDPRESS)
       </figcaption>
-    </figure><a href="https://codepen.io/andreimarian/" target="_blank">
-    <h3 id="check-work">VIEW ALL MY WORK</h3></a>
+
+  
+ <a href="https://codepen.io/andreimarian/" target="_blank">
+    <h3 id="check-work">VIEW ALL MY WORK </h3></a>
   </div><!-- END PORTOFOLIO -->
     <div id="contact">
         <!-- START CONTACT -->
