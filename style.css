@@ -6,7 +6,9 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     height: 100%;
+
 }
+
 header {
     text-align: center;
     height: 2.5rem;
@@ -50,8 +52,10 @@ header {
     width: 45%;
     position: fixed;
     height: 100%;
+
     text-align: center;
     font-size: .8rem;
+
 }
 .logos {
     margin-top: 2rem;
@@ -143,6 +147,8 @@ input[type="submit"]:hover {
     border-radius: 25px;
     opacity: 0.75;
     margin: -22px auto 12px auto;
+    display:inline-block;
+
 }
 .scroller {
     width: 3px;
@@ -154,29 +160,90 @@ input[type="submit"]:hover {
     animation-timing-function: cubic-bezier(.15, .41, .69, .94);
     animation-iteration-count: infinite;
 }
-.container3 {
+
+#about-me {
+    margin-top:2%;
+    width: 55%;
+    float: right;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    color:black;
+}
+
+#profile {
+    float:right;
+}
+
+
+#about-me p {
+    font-size:17px;
+    padding:0 50px;
+    line-height:40px;
+    font-weight:bold;
+    text-align:left;
+}
+
+
+#about-me p::selection,
+span::selection, 
+a::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+figcaption::selection,
+li::selection {
+background:#9c2442;
+color:white;
+}
+
+.blue {
+    color:#378bf2;
+}
+
+.blue.underline {
+
+    border-bottom:1px solid black;
+
+}
+
+#about-me a {
+text-decoration:underline;}
+
+#about-me h2 {
+    color:white;
+    background: #afaeae;
+    padding: .6rem;
+    text-align: center;
+}
+
+
+
+#skills {
+    margin-top:2%;
     width: 55%;
     float: right;
     color: white;
     font-size: 1rem;
     text-align: center;
 }
-.container3 h2 {
+#skills h2 {
     background: #afaeae;
     padding: .6rem;
     text-align: center;
 }
-.container3 h3 {
+#skills h3 {
     color: black;
     text-align: center;
 }
 .grey {
     background: lightgrey;
 }
-.container3 ul {
+#skills ul {
     padding: 10px;
 }
-.container3 li {
+#skills li {
     list-style-type: none;
     background: orange;
     text-align: right;
@@ -184,37 +251,42 @@ input[type="submit"]:hover {
     color: white;
     margin-bottom: 5px;
 }
-.container3 li#html {
+#skills li#html {
     width: 85%;
 }
-.container3 li#css {
+#skills li#css {
     width: 55%;
 }
-.container3 li#wordpress {
+#skills li#wordpress {
     width: 35%;
 }
-.container3 li#bootstrap {
+#skills li#bootstrap {
     width: 25%;
 }
-.container3 li#javascript {
+#skills li#javascript {
     width: 23%;
 }
-.container3 li#jquery {
+#skills li#jquery {
     width: 21%;
 }
-.container3 li#csharp {
+#skills li#csharp {
     width: 10%;
 }
-.container3 li#photoshop {
+#skills li#photoshop {
     width: 35%;
 }
-.container3 li#soft {
+#skills li#soft {
     width: 93%;
 }
-.container3 li#humor {
-    width: 96%;
+
+#skills li#singing {
+    width: .1px;
+}
+#skills li#humor {
+    width: -1px; /*  goes 100%*/
 }
 #portofolio {
+
     width: 55%;
     float: right;
     color: white;
@@ -238,32 +310,53 @@ input[type="submit"]:hover {
   box-shadow: 0 0 5px 4px #d1d3d3;
 }
 
-.first,
-.second,
-.third,
-.fourth,
-.fifth,
-.sixth,
-.seventh,
-.eighth,
-.ninth,
-.tenth,
-.eleventh,
-.twelfth,
-.thirteenth,
-.fourteenth {
-    margin-top: 4%;
+.container {
+  position: relative;
+  width:89%;
+margin:0 auto;
 }
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 70%;
+  height:84.5%;
+  margin:auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.overlay:hover {
+  color:white;
+  opacity: .8;
+}
+
+.text {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
 figcaption {
     background-color: orange;
-    width: 100%;
+    width: 80%;
     padding: 15px 0;
     background: #e0e2e2;
   border-radius: 0px 0px 6px 6px;
-    margin: -.6% auto 0 auto;
+    margin: -.5% auto 4% auto;
   color:black;
-  
 }
+
+
 
 #check-work {
   position:static;
@@ -271,18 +364,21 @@ figcaption {
   color:white;
   width:150px;
   font-size:15px;
-  padding:10px;
-  margin:0 auto;
-  margin:20px auto;
+  padding:15px 10px;
+  display:inline-block;
+  margin:2% auto 7% auto;
   border:1px solid #9c2442;
   cursor:pointer;
-  border-radius:5px;
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,.2);
+  transition:all .3s ease-in-out;
+
 }
 
 #check-work:hover {
   background:white;
   color:#9c2442;
   border:1px solid #9c2442;
+  box-shadow: 0 30px 40px 0 rgba(0,0,0,.3);
 }
 
 a {
@@ -310,6 +406,9 @@ a {
 h4,
 h5 {
     color: black;
+}
+#contact h3 {
+    font-weight:400;
 }
 #text {
     width: 100%;
@@ -371,8 +470,14 @@ h5 {
 /* 1.Responsive menu*/
 
 @media screen and (max-width: 600px) {
+    #profile {
+        float:none;
+    }
     .nav a:not(:first-child) {
         display: none;
+    }
+     nav a:first-child {
+        float: left;
     }
     .nav a.icon {
         float: right;
@@ -380,6 +485,7 @@ h5 {
     }
     .nav.responsive {
         transition: 0.5s;
+
         /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
     }
     .nav.responsive .icon {
@@ -392,10 +498,11 @@ h5 {
         display: block;
         margin: 0;
         text-align: center;
+
     }
-    nav a:first-child {
-        float: left;
-    }
+
+
+
     /*Full width divs on mobile */
     
     .info-left {
@@ -403,6 +510,7 @@ h5 {
         position: static;
         margin-top: -3%;
         background-position: 51%;
+        height:100vh;
     }
     .info-right {
         width: 100%;
@@ -413,7 +521,8 @@ h5 {
         margin: 0 auto 15px auto;
         padding-bottom: 13px;
     }
-    .container3,
+    #about-me,
+    #skills,
     #portofolio {
         position: static;
         width: 100%;
@@ -424,13 +533,16 @@ h5 {
         background-position: right;
     }
     figcaption {
+        width:95%;
 
-        margin: -1.2% auto 0 auto;
     }
-  
-}
-/*Landscape view mobile */
 
+    #portofolio img {
+        border-width: 13px 10px;
+    }
+}
+
+/*Landscape view mobile */
 @media all and (min-height: 0px) and (max-height: 480px) {
     .logos {
         margin-top: 2.3%;
@@ -438,4 +550,7 @@ h5 {
     .centered h1 {
         margin-top: 3%;
     }
+
 }
+
+
