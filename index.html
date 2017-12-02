@@ -13,9 +13,17 @@
       <link rel="stylesheet" type="text/css" href="normalize.css">
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--    Load the CDN first --> 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!--    If the CDN fails to load, serve up the local version --> 
+      <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>');</script>
+        <!--    Typed plugin CDN -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
-      <script type="text/javascript" src="jquery.js"></script>
+        <!--    If the CDN fails to load, serve up the local version --> 
+      <script>window.jQuery || document.write('<script src="js/scripts/jquery-1.8.3.min.js"><\/script>');</script>
+
+
+      <script type="text/javascript" src="js/script.js"></script>
       <title>Andrei Nemeti | Portofolio</title>
    </head>
    <body>
@@ -59,13 +67,13 @@
         <h2>BACKGROUND</h2>
         <img id="profile" src="https://cdn.pbrd.co/images/GVryAE1.jpg">
         <p><span>Hello</span>. My Name is Andrei. <br/>
-        	I enjoy turning complex problems into easy, <span class="blue">human readable solutions</span>, and I'm really <span class="blue">passionate about coding</span>.
-        	I grew up in Cluj-Napoca, which is a friendly city located in the heart of <a href="https://en.wikipedia.org/wiki/Transylvania" target="_blank">Transylvania</a>, Romania. 
-        	 Having studied social sciences for 5 years, helped me better understand the people around me, and made me realize that sometimes a small effort from yourself can make a huge difference in another's person's life.<br/>
-        	 <span class="blue">I code for free for NGO's who support social causes.</span></p>
+         I enjoy turning complex problems into easy, <span class="blue">human readable solutions</span>, and I'm really <span class="blue">passionate about coding</span>.
+         I grew up in Cluj-Napoca, which is a friendly city located in the heart of <a href="https://en.wikipedia.org/wiki/Transylvania" target="_blank">Transylvania</a>, Romania. 
+          Having studied social sciences for 5 years, helped me better understand the people around me, and made me realize that sometimes a small effort from yourself can make a huge difference in another's person's life.<br/>
+          <span class="blue">I code for free for NGO's who support social causes.</span></p>
 
 
-	</div>
+   </div>
     <div id="skills">
         <!-- START CONTAINER3 -->
         <h2>MY SKILLS</h2>
@@ -112,174 +120,199 @@
     <!-- END SKILLS CONTAINER -->
    <div id="portofolio">
     <!-- START PORTOFOLIO -->
-    	<h2>WORK</h2>
-   		<div class="container">
-  			<img src="https://cdn.pbrd.co/images/GViEtu8.jpg" alt="Avatar" class="image">
-  			<a href="https://codepen.io/andreimarian/full/RjVywe/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
-		<figcaption>
+      <h2>WORK</h2>
+         <div class="container">
+         <img src="https://cdn.pbrd.co/images/GViEtu8.jpg" alt="Avatar" class="image">
+         <a href="https://codepen.io/andreimarian/full/RjVywe/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
+      <figcaption>
         Project 1. Simple Product Manager
       </figcaption>
 
-	<div class="container">
-  			<img src="https://cdn.pbrd.co/images/GViDlN1.jpg">
-  			 <a href="https://codepen.io/andreimarian/full/JOGyqp/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+   <div class="container">
+         <img src="https://cdn.pbrd.co/images/GViDlN1.jpg">
+          <a href="https://codepen.io/andreimarian/full/JOGyqp/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
 <figcaption>
         Project 2. Watch Shop
       </figcaption>
 
       <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GViGYqM.jpg">
-  			 <a href="https://codepen.io/andreimarian/full/OOJZJP/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+         <img src="https://cdn.pbrd.co/images/GViGYqM.jpg">
+          <a href="https://codepen.io/andreimarian/full/OOJZJP/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
 <figcaption>
         Project 3. Architecture Site
       </figcaption>
 
 <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GViHo64.jpg">
-  			 <a href="https://codepen.io/andreimarian/full/EbYGQM/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+         <img src="https://cdn.pbrd.co/images/GViHo64.jpg">
+          <a href="https://codepen.io/andreimarian/full/EbYGQM/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
 <figcaption>
         Project 4. Sticky Notes
       </figcaption>
- 
-<div class="container">
-  			<img src="https://cdn.pbrd.co/images/GViREdR.jpg">
-  			 <a href="https://codepen.io/andreimarian/full/mBxzXJ/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+
+      
+ <div class="container">
+         <img src="https://cdn.pbrd.co/images/GWn8wxE.png">
+          <a href="https://codepen.io/andreimarian/full/yPZaox/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
       <figcaption>
-        Project 5. Iphone Design
+        Project 5. Bike racing Game 
       </figcaption>
 
       <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GViVk1D.jpg">
-  			 <a href="https://codepen.io/andreimarian/full/zEXaRj/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
-  	<figcaption>
+         <img src="https://cdn.pbrd.co/images/GViVk1D.jpg">
+          <a href="https://codepen.io/andreimarian/full/zEXaRj/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
+   <figcaption>
         Project 6. Romanian CNP Validator
       </figcaption>
 
+<div class="container">
+         <img src="https://cdn.pbrd.co/images/GViREdR.jpg">
+          <a href="https://codepen.io/andreimarian/full/mBxzXJ/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
+      <figcaption>
+        Project 7. Iphone Design
+      </figcaption>
+
+      <div class="container">
+         <img src="https://cdn.pbrd.co/images/GViVk1D.jpg">
+          <a href="https://codepen.io/andreimarian/full/zEXaRj/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
+   <figcaption>
+        Project 8. Romanian CNP Validator
+      </figcaption>
+
    <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GOBurffX.png">
-  			 <a href="https://codepen.io/andreimarian/full/XeZyQK/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+         <img src="https://cdn.pbrd.co/images/GOBurffX.png">
+          <a href="https://codepen.io/andreimarian/full/XeZyQK/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
      <figcaption>
-        Project 7. Simple Registration Form
+        Project 9. Simple Registration Form
       </figcaption>
 
        <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GViTxHh.jpg">
-  			 <a href="https://codepen.io/andreimarian/full/YrmKGe/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+         <img src="https://cdn.pbrd.co/images/GViTxHh.jpg">
+          <a href="https://codepen.io/andreimarian/full/YrmKGe/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
  <figcaption>
-        Project 8. Another Registration Form
+        Project 10. Another Registration Form
       </figcaption>
 
  <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GOBAbaE.png">
-  			 <a href="https://codepen.io/andreimarian/full/KXyWGQ/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+         <img src="https://cdn.pbrd.co/images/GOBAbaE.png">
+          <a href="https://codepen.io/andreimarian/full/KXyWGQ/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
 <figcaption>
-        Project 9. Genetic Counseling (Ongoing)
+        Project 11. Genetic Counseling (Ongoing)
       </figcaption>
 
        <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GViIkcvS.jpg">
-  			 <a href="https://codepen.io/andreimarian/full/qVpGyP/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+         <img src="https://cdn.pbrd.co/images/GViIkcvS.jpg">
+          <a href="https://codepen.io/andreimarian/full/qVpGyP/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
  <figcaption>
-        Project 10. Simple Tip Calculator
+        Project 12. Simple Tip Calculator
       </figcaption>
 
           <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GOBANyP.png">
-  			 <a href="https://codepen.io/andreimarian/full/QqvZZE/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+         <img src="https://cdn.pbrd.co/images/GOBANyP.png">
+          <a href="https://codepen.io/andreimarian/full/QqvZZE/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
  <figcaption>
-        Project 11.TRIBUTE PAGE (freeCodeCamp)
+        Project 13.TRIBUTE PAGE (freeCodeCamp)
       </figcaption>
 
 
   <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GVju1XM.jpg">
-  			 <a href="https://codepen.io/andreimarian/full/aLLYzw/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+         <img src="https://cdn.pbrd.co/images/GVju1XM.jpg">
+          <a href="https://codepen.io/andreimarian/full/aLLYzw/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
     <figcaption>
-        Project 12. CSS Planets Animation
+        Project 14. CSS Planets Animation
       </figcaption>
 
       <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GOBBmKY.png">
-  			 <a href="https://codepen.io/andreimarian/full/PJjvyg/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+         <img src="https://cdn.pbrd.co/images/GOBBmKY.png">
+          <a href="https://codepen.io/andreimarian/full/PJjvyg/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
       <figcaption>
-        Project 13. Tribute Page (BOOTSTRAP)
+        Project 15. Tribute Page (BOOTSTRAP)
       </figcaption>
 
       <div class="container">
-  			<img src="https://cdn.pbrd.co/images/GOKHgfTk.png">
-  			 <a href="http://findingmyway.ro/" target="_blank"> <!-- not working on all browsers -->
-  				<div class="overlay">
-    			<div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
-  				</div>
-			</a>
-		</div>
+         <img src="https://cdn.pbrd.co/images/GOKHgfTk.png">
+          <a href="http://findingmyway.ro/" target="_blank"> <!-- not working on all browsers -->
+            <div class="overlay">
+            <div class="text">View project <i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+         </a>
+      </div>
  <figcaption>
-        Project 14. Finding My Way Romania (WORDPRESS)
+        Project 16. Finding My Way Romania (WORDPRESS)
       </figcaption>
 
   
