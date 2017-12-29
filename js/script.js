@@ -31,7 +31,7 @@ function responsiveNav() {
 }
 $(function() {
     $(".typed").typed({
-        strings: ["cool websites.", "web apps.", "online shops.", "logos.", "free stuff for NGO's!"],
+        strings: ["cool websites.", "logos.", "free stuff for NGO's!"],
         typeSpeed: 30,
         loop: true,
         backDelay: 2000,
