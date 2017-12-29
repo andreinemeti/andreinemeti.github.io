@@ -21,10 +21,10 @@ header {
     z-index: 1;
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
-    -webkit-border-image: url("resize/nav_border.jpg") 30 stretch;
-    -moz-border-image: url("https://cdn.pbrd.co/images/GTU0Dfx.jpg") 30 stretch;
-    -o-border-image: url("https://cdn.pbrd.co/images/GTU0Dfx.jpg") 30 stretch;
-    border-image: url("https://cdn.pbrd.co/images/GTU0Dfx.jpg") 30 stretch;
+    -webkit-border-image: url("../img-optimized/border.jpg") 30 stretch;
+    -moz-border-image: url("../img-optimized/border.jpg") 30 stretch;
+    -o-border-image: url("../img-optimized/border.jpg") 30 stretch;
+    border-image: url("../img/border.jpg") 30 stretch;
 }
 .nav a {
     display: inline-block;
@@ -46,7 +46,7 @@ header {
     display: none;
 }
 .info-left {
-    background: url("https://cdn-images-1.medium.com/max/1200/1*qK5AkE8AvU1-DtS_Xq6m-Q.jpeg")no-repeat center;
+    background: url("../img-optimized/fixedimage.jpg")no-repeat center;
     background-size: cover;
     background-position: 52.5%;
     width: 45%;
@@ -108,7 +108,7 @@ input[type="submit"]:hover {
     filter: brightness(80%);
 }
 .info-right {
-    background: url("https://images.unsplash.com/photo-1504378726307-8ba90b0427b3?dpr=1&auto=compress,format&fit=crop&w=1542&h=&q=80&cs=tinysrgb&crop=")no-repeat;
+    background: url("../img-optimized/imgdoor.jpg")no-repeat;
     background-size: cover;
     background-position: 50%;
     width: 55%;
@@ -383,7 +383,7 @@ a {
 }
 
 #contact {
-    background: url("http://www.drodd.com/images14/white-wallpaper40.png")no-repeat;
+    background: url("../img-optimized/contactimage.jpg")no-repeat;
     background-size: 50% 150%;
     background-position: right;
     width: 55%;
