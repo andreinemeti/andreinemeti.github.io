@@ -24,7 +24,7 @@ header {
     -webkit-border-image: url("../img-optimized/border.jpg") 30 stretch;
     -moz-border-image: url("../img-optimized/border.jpg") 30 stretch;
     -o-border-image: url("../img-optimized/border.jpg") 30 stretch;
-    border-image: url("../img/border.jpg") 30 stretch;
+    border-image: url("../img-optimized/border.jpg") 30 stretch;
 }
 .nav a {
     display: inline-block;
