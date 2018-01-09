@@ -25,6 +25,16 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
     }
 }
 
+@-webkit-keyframes starPulse {
+     from {opacity: 0.1;}
+     to {opacity: 0.5;}
+}
+
+@keyframes starPulse {
+     from {opacity: 0.1;}
+     to {opacity: 0.5;}
+}
+
 
  @keyframes zoom-in {
      0% {
@@ -396,10 +406,6 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      filter:grayscale(.3);
 }
 
-@keyframes starPulse {
-     from {opacity: 0.1;}
-     to {opacity: 0.5;}
-}
  .fourth-page {
      position:relative;
      padding-bottom:30px;
