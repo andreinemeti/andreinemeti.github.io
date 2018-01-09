@@ -24,6 +24,8 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
          opacity: 1;
     }
 }
+
+
  @keyframes zoom-in {
      0% {
          transform: scale(1) 
@@ -393,10 +395,36 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      background:black;
      filter:grayscale(.3);
 }
+
+@keyframes starPulse {
+     from {opacity: 0.1;}
+     to {opacity: 0.5;}
+}
  .fourth-page {
-     background-size:cover;
+     position:relative;
      padding-bottom:30px;
-     background:#343333;
+     background:#1B1919;
+     background: radial-gradient(#555, #000);
+     background-size:cover;
+     z-index:0;
+}
+
+
+.fourth-page:before  {
+ content:'';
+ top:0;
+ left:0;
+ right:0;
+ bottom:0;
+ height:100%;
+ width:100%;
+ position:absolute;
+ background:url("img-optimized/stars.png");
+ display:block;
+ opacity:0.1;
+      z-index:-1;
+          animation: starPulse 3s infinite alternate;
+
 }
  .clearfix {
      clear: both;
