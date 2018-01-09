@@ -154,6 +154,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
 }
  #close {
      display:none;
+     right:-64px;
 }
  .open-nav {
      cursor:pointer;
