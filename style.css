@@ -105,6 +105,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
 }
 /* end universal styling */
  .first-page {
+ 	border-top:5px solid black;
      background:url("img-optimized/shapes-background.png") #0A0A0B no-repeat 90% 100%;
      background-size:1000px;
      overflow:hidden;
@@ -113,7 +114,8 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      animation: zoom-in 30s linear 10ms infinite;
 }
  .first-page .overlay:before {
-     background: #1B2030 url(img-optimized/main-background.jpg) center center no-repeat;
+     background: #1B2030 url(img-optimized/turn.jpg) center center no-repeat;
+     transform:rotate(180deg);
      background-size: cover;
 }
  .sidenav {
@@ -313,8 +315,12 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      transition:.5s all;
 }
  .second-page {
+
+ 	border-top:5px solid black;
      background:url("img-optimized/romb.png") #0A0A0B no-repeat 10vw 100%;
      background-size:1300px;
+     overflow:hidden;
+
 }
  .second-page:before {
      background: #1488CC;
@@ -323,8 +329,9 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      opacity:.5;
 }
  .second-page .overlay:before {
-     background:url("img-optimized/background2.jpg") center no-repeat;
+     background:url("img-optimized/turn.jpg") center no-repeat;
      background-size: cover;
+     animation:zoom-in 30s linear 10ms infinite;
 }
  .second-page .home-text {
      border:none;
@@ -347,7 +354,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      position:relative;
 }
  .third-page .left {
-     background:url("img-optimized/art.jpg")center no-repeat;
+     background:url("https://images.unsplash.com/photo-1509530281400-1df0e2b8feec?auto=format&fit=crop&w=1534&q=80")center no-repeat;
      float:left;
 }
  .third-page .container.left:before {
@@ -357,21 +364,29 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      opacity:.7;
 }
  .third-page .container.right {
-     background:url("img-optimized/feather.jpg")no-repeat center;
-     background-size:cover;
-     float:right;
-}
- .third-page .container.right:before {
-     background: #F00000;
+ 	    background: #F00000;
      background: -webkit-linear-gradient(to bottom, #ca0909f7, #000000);
      background: linear-gradient(to bottom, #ca0909f7, #000000);
-     opacity:.8;
+     background-size:cover;
+     float:right;
+        opacity:1;
+
+
+}
+ .third-page .container.right:before {
+ 	     background:url("https://images.unsplash.com/photo-1509530281400-1df0e2b8feec?auto=format&fit=crop&w=1534&q=80")no-repeat center;
+ 	   opacity:.8;
+ 	   transform:rotate(180deg);
+ 	   background-position:-15px;
+
+  
 }
  .third-page .home-text {
      color:white;
      width:100%;
      border:none;
      box-shadow:none;
+
 }
  .third-page .logos {
      justify-content:center;
@@ -409,7 +424,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      position:relative;
      padding-bottom:30px;
      background:#1B1919;
-     background: radial-gradient(#555, #000);
+     background: radial-gradient(#000000, #093256);
      background-size:cover;
      z-index:0;
 }
@@ -999,7 +1014,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
     }
 
   .home-text header h1 { /*targeting all h1 headers but not the landing page h1*/
-         width:90%;
+         width:100%;
          margin:0 auto;
          font-size:25px;
     }
@@ -1011,8 +1026,10 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
     }
 }
  @media all and (max-width: 345px) {
+
      .home-text p {
          width:90%;
+ 	}
     }
      .fifth-page .home-text{
          width:100%;
