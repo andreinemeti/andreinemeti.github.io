@@ -354,8 +354,9 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      position:relative;
 }
  .third-page .left {
-     background:url("https://images.unsplash.com/photo-1509530281400-1df0e2b8feec?auto=format&fit=crop&w=1534&q=80")center no-repeat;
+     background:url("img-optimized/abstract2.jpg")center no-repeat;
      float:left;
+      background-position:-1px;
 }
  .third-page .container.left:before {
      background: #ffe259;
@@ -374,10 +375,10 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
 
 }
  .third-page .container.right:before {
- 	     background:url("https://images.unsplash.com/photo-1509530281400-1df0e2b8feec?auto=format&fit=crop&w=1534&q=80")no-repeat center;
+ 	     background:url("img-optimized/abstract2.jpg")no-repeat center;
  	   opacity:.8;
  	   transform:rotate(180deg);
- 	   background-position:-15px;
+ 	   background-position:-35px;
 
   
 }
