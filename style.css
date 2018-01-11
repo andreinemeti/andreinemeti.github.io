@@ -315,9 +315,8 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      transition:.5s all;
 }
  .second-page {
-
  	border-top:5px solid black;
-     background:url("img-optimized/romb.png") #0A0A0B no-repeat 10vw 100%;
+     background:url("img-optimized/sm-sizes/romb.png") #0A0A0B no-repeat 10vw 100%;
      background-size:1300px;
      overflow:hidden;
 
@@ -443,9 +442,8 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
  background:url("img-optimized/stars.png");
  display:block;
  opacity:0.1;
-      z-index:-1;
-          animation: starPulse 3s infinite alternate;
-
+ z-index:-1;
+ animation: starPulse 3s infinite alternate;
 }
  .clearfix {
      clear: both;
@@ -557,6 +555,8 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      text-decoration:none;
      color:white;
 }
+
+/* Reminder: add the images in <img> tags in html to improve seo; */
  .portofolio1 {
      background:url("img-optimized/portofolio1.jpg") center no-repeat;
      background-size:cover;
@@ -660,14 +660,26 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
  .fifth-page .overlay {
      opacity:.7;
 }
+
+
+@media all and (min-width:800px) {
  .fifth-page .overlay:before {
      background:url("img-optimized/wall.jpg") center;
      background-size:cover;
+}
+}
+@media all and (max-width:800px) {
+
+	 .fifth-page .overlay:before {
+     background:url("img-optimized/sm-sizes/wall_sm_size.jpg") center; /*reduced size*/
+     background-size:cover;
+}
 }
  .fifth-page .home-text {
      color:#DDDADA;
      width:80%;
      border:5px solid #DB123D;
+}
 }
  .fifth-page .home-text p {
      width:100%;
