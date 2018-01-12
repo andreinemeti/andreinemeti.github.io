@@ -18,7 +18,16 @@ bodyBlur.addEventListener("click", function() {
 });
 
 
-//filter portofolio
+// hiding the mobile nav everytime the anchor tags are clicked
+var anchorTags = document.getElementById("mySidenav").childNodes;
+for (var x = 0; x < anchorTags.length; x++) {
+    anchorTags[x].addEventListener("click", function() {
+        closeNav();
+});
+};
+
+
+//filter portofolio ** 
 
 filterSelection("all")
 
