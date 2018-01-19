@@ -629,6 +629,10 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      background:url("img-optimized/portofolio18.jpg") center no-repeat;
      background-size:cover;
 }
+ .portofolio19 {
+     background:url("img-optimized/portofolio19.jpg") center no-repeat;
+     background-size:cover;
+}
  #viewMoreBtn {
      text-decoration:none;
      color:white;
