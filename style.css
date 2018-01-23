@@ -1052,5 +1052,11 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      .fifth-page .home-text{
          width:100%;
     }
+
+    .footer .left h2 {
+ 
+     width:100%;
+
+}
 }
  
