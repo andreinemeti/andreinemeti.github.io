@@ -541,7 +541,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      border:#555252;
      background:white;
 }
- .portofolio-container{
+ .portfolio-container{
      display:flex;
      justify-content:space-around;
      flex-wrap:wrap;
@@ -550,7 +550,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      flex-direction:row;
      margin:0 auto;
 }
- .portofolio {
+ .portfolio {
      box-sizing:border-box;
      margin-top:30px;
      height:200px;
@@ -567,7 +567,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      transition: .5s ease;
      background-color: #000;
 }
- .filter.portofolio:hover .hover-text {
+ .filter.portfolio:hover .hover-text {
      color: #fff;
      opacity: .9;
 }
@@ -581,7 +581,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      -ms-transform: translate(-50%, -50%);
      text-align:center;
 }
- .portofolio a {
+ .portfolio a {
      display: block;
      height:100%;
      position:relative;
@@ -590,68 +590,68 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
 }
 
 /* Reminder: add the images in <img> tags in html to improve seo; */
- .portofolio1 {
-     background:url("img-optimized/portofolio1.jpg") center no-repeat;
+ .portfolio1 {
+     background:url("img-optimized/portfolio1.jpg") center no-repeat;
      background-size:cover;
 }
- .portofolio2 {
-     background:url("img-optimized/portofolio2.jpg") left no-repeat;
+ .portfolio2 {
+     background:url("img-optimized/portfolio2.jpg") left no-repeat;
      background-size:cover;
 }
- .portofolio3 {
-     background:url("img-optimized/portofolio3.jpg") center no-repeat;
+ .portfolio3 {
+     background:url("img-optimized/portfolio3.jpg") center no-repeat;
      background-size:cover;
 }
- .portofolio4 {
-     background:url("img-optimized/portofolio4.jpg") center no-repeat;
+ .portfolio4 {
+     background:url("img-optimized/portfolio4.jpg") center no-repeat;
      background-size:cover;
 }
- .portofolio5 {
-     background:url("img-optimized/portofolio5.jpg") center no-repeat;
+ .portfolio5 {
+     background:url("img-optimized/portfolio5.jpg") center no-repeat;
      background-size:cover;
 }
- .portofolio6 {
-     background:url("img-optimized/portofolio6.jpg") center no-repeat;
+ .portfolio6 {
+     background:url("img-optimized/portfolio6.jpg") center no-repeat;
      background-size:cover;
 }
- .portofolio7 {
-     background:url("img-optimized/portofolio7.jpg") center no-repeat;
+ .portfolio7 {
+     background:url("img-optimized/portfolio7.jpg") center no-repeat;
      background-size:cover;
 }
- .portofolio8 {
-     background:url("img-optimized/portofolio8.jpg") center no-repeat;
+ .portfolio8 {
+     background:url("img-optimized/portfolio8.jpg") center no-repeat;
      background-size:cover;
 }
- .portofolio9 {
-     background:url("img-optimized/portofolio9.jpg") center no-repeat;
+ .portfolio9 {
+     background:url("img-optimized/portfolio9.jpg") center no-repeat;
      background-size:cover;
 }
- .portofolio10 {
-     background:url("img-optimized/portofolio10.jpg") center no-repeat;
+ .portfolio10 {
+     background:url("img-optimized/portfolio10.jpg") center no-repeat;
      background-size:cover;
 }
- .portofolio11 {
-     background:url("img-optimized/portofolio11.jpg") center no-repeat;
-     background-size:cover;
-}
-
- .portofolio13 {
-     background:url("img-optimized/portofolio13.jpg") center no-repeat;
+ .portfolio11 {
+     background:url("img-optimized/portfolio11.jpg") center no-repeat;
      background-size:cover;
 }
 
- .portofolio15 {
-     background:url("img-optimized/portofolio15.jpg") center no-repeat;
+ .portfolio13 {
+     background:url("img-optimized/portfolio13.jpg") center no-repeat;
      background-size:cover;
 }
 
- .portofolio19 {
-     background:url("img-optimized/portofolio19.jpg") center no-repeat;
+ .portfolio15 {
+     background:url("img-optimized/portfolio15.jpg") center no-repeat;
      background-size:cover;
 }
 
- .portofolio20 {
-     background:url("img-optimized/portofolio20.jpg") center no-repeat;
+ .portfolio19 {
+     background:url("img-optimized/portfolio19.jpg") center no-repeat;
+     background-size:cover;
+}
+
+ .portfolio20 {
+     background:url("img-optimized/portfolio20.jpg") center no-repeat;
      background-size:cover;
 }
  #viewMoreBtn {
@@ -872,10 +872,10 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      .fourth-page .main-text p {
          width:90%;
     }
-     .portofolio {
+     .portfolio {
          width:45%;
     }
-     .portofolio-container {
+     .portfolio-container {
          width:90%;
     }
 }
@@ -982,7 +982,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      .main-text h4 {
          font-size:25px;
     }
-     .portofolio-container .portofolio {
+     .portfolio-container .portfolio {
          width:70%;
     }
      form {
@@ -996,7 +996,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
     }
 }
  @media all and (max-width:569px) {
-     .portofolio {
+     .portfolio {
          width:77%;
     }
 }
@@ -1007,7 +1007,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      .second-page .main-text p {
          width:100%;
     }
-     .portofolio {
+     .portfolio {
          width:90%;
     }
      input[type="text"], input[type="email"], textarea, button[type="submit"] {
@@ -1059,7 +1059,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
     .fourth-page header h1 {
          margin-bottom:25px;
     }
-     .portofolio-container .portofolio {
+     .portfolio-container .portfolio {
          width:100%;
     }
 }

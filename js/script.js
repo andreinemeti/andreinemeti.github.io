@@ -27,7 +27,7 @@ for (var x = 0; x < anchorTags.length; x++) {
 };
 
 
-//filter portofolio ** 
+//filter portfolio ** 
 
 filterSelection("all")
 
@@ -85,16 +85,12 @@ for (var i = 0; i < btns.length; i++) {
 //Scroll to top function
 
 window.onscroll = function() {
-    scrollFunction()
-};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 620 || document.documentElement.scrollTop > 620) {
+     if (document.body.scrollTop > 620 || document.documentElement.scrollTop > 620) {
         document.getElementById("goToTopBtn").style.display = "block";
     } else {
         document.getElementById("goToTopBtn").style.display = "none";
     }
-}
+};
 
 
 
