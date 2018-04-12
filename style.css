@@ -635,10 +635,16 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      background-size:cover;
 }
 
+.portfolio12 {
+     background:url("img-optimized/portfolio12.jpg") center no-repeat;
+     background-size:cover;
+}
+
  .portfolio13 {
      background:url("img-optimized/portfolio13.jpg") center no-repeat;
      background-size:cover;
 }
+
 
  .portfolio15 {
      background:url("img-optimized/portfolio15.jpg") center no-repeat;
@@ -861,6 +867,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      .fifth-page p {
          font-size:25px;
     }
+
 }
  @media all and (max-width:980px) {
      .third-page .container.left {
