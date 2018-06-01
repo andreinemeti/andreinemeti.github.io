@@ -90,6 +90,20 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      right:0;
      display:block;
 }
+
+.second-page:before, .third-page .container:before {
+         content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background: url(file:///H:/Site-urile%20mele/andreinemeti.github.io/img-optimized/stars.png);
+    background-position: bottom;
+    background-size: contain;
+    opacity: .3;
+}
  .overlay {
      height:100%;
      height:100vh;
@@ -245,6 +259,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      background: linear-gradient(to right, #c23636, #D31027);
      border-bottom:5px solid #880707;
      position:relative;
+         z-index: 999;
 }
  .cta:hover {
      filter:brightness(1.1);
@@ -321,9 +336,9 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
 }
  .second-page:before {
      background: #1488CC;
-     background: -webkit-linear-gradient(to left, #2B32B2, #1488CC);
-     background: linear-gradient(to left, #2B32B2, #1488CC);
-     opacity:.5;
+    background: -webkit-linear-gradient(to left, #444fa2, #000000);
+        background: linear-gradient(to bottom, #444fa2, #000000);
+    opacity: .7;
 }
  .second-page .overlay:before {
      background:url("img-optimized/turn.jpg") center no-repeat;
@@ -340,7 +355,30 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      color:white;
 }
  .third-page {
-     background-size:cover;
+      position: relative;
+    background: #161616;
+}
+
+.third-page:before {
+     position: absolute;
+    margin-top: -195px;
+    height: 195px;
+    content: '';
+    width: 100%;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(200,189,189,0)),to(#171717));
+        background-image: linear-gradient(to bottom,rgba(200, 189, 189, 0),#171717);
+}
+
+.third-page:after {
+     position: absolute;
+     left: 0;
+    top: -5px;
+    margin-top: -118px;
+    height: 122px;
+    content: '';
+    width: 100%;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(200,189,189,0)),to(#171717));
+    background-image: linear-gradient(to bottom,rgba(200,189,189,0),#171717);
 }
 /* targeting both left and right side */
  .third-page .container {
@@ -351,28 +389,18 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      position:relative;
 }
  .third-page .left {
-     background:url("img-optimized/abstract2.jpg")center no-repeat;
+   
      float:left;
       background-position:-1px;
 }
- .third-page .container.left:before {
-     background: #ffe259;
-     background: -webkit-linear-gradient(to bottom, #0a2d6d, #ceb81c);
-         background: linear-gradient(to bottom, #0a2d6d, #0a0a09);
-     opacity:.7;
-}
+
  .third-page .container.right {
- 	    background: #F00000;
-     background: -webkit-linear-gradient(to bottom, #ca0909f7, #000000);
-     background: linear-gradient(to bottom, #ca0909f7, #000000);
-     background-size:cover;
+
      float:right;
         opacity:1;
 }
  .third-page .container.right:before {
- 	    background:url("img-optimized/abstract2.jpg")no-repeat center;
- 	   opacity:.8;
- 	   transform:rotate(180deg);
+
  	   background-position:-35px;
 }
 .third-page .left h1, .third-page .right h1, .second-page h1 {
@@ -425,7 +453,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      position:relative;
      padding-bottom:30px;
      background:#1B1919;
-     background: radial-gradient(#000000, #021c29);
+     background: radial-gradient(#161616, #161616);
      background-size:cover;
      z-index:0;
      overflow:hidden;
@@ -658,6 +686,16 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
 
  .portfolio20 {
      background:url("img-optimized/portfolio20.jpg") center no-repeat;
+     background-size:cover;
+}
+
+ .portfolio21 {
+     background:url("img-optimized/portfolio21.jpg") center no-repeat;
+     background-size:cover;
+}
+
+ .portfolio22 {
+     background:url("img-optimized/portfolio22.jpg") center no-repeat;
      background-size:cover;
 }
  #viewMoreBtn {
