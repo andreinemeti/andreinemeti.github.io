@@ -898,6 +898,13 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
     cursor:initial;
     }
 
+
+    @media all and (min-width:2000px) {
+     .fourth-page .portfolio {
+          width: 330px;
+     }
+    }
+
  @media all and (min-width:960px) {
      .third-page .main-text {
          justify-content: initial;
