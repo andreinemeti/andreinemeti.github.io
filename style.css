@@ -917,9 +917,12 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
  @media all and (max-width:980px) {
      .third-page .container.left {
          width:100%;
+         height:auto;
     }
      .third-page .container.right {
          width:100%;
+         background:#161616;
+         height:auto;
     }
      .fourth-page .main-text p {
          width:90%;
