@@ -618,6 +618,11 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
 }
 
 /* Reminder: add the images in <img> tags in html to improve seo; */
+ .portfolio0 {
+     background:url("img-optimized/portfolio0.jpg") center no-repeat;
+     background-size:cover;
+}
+
  .portfolio1 {
      background:url("img-optimized/portfolio1.jpg") center no-repeat;
      background-size:cover;
@@ -625,6 +630,7 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
  .portfolio2 {
      background:url("img-optimized/portfolio2.jpg") left no-repeat;
      background-size:cover;
+     background-position: 50% 50%;
 }
  .portfolio3 {
      background:url("img-optimized/portfolio3.jpg") center no-repeat;
@@ -696,6 +702,11 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
 
  .portfolio22 {
      background:url("img-optimized/portfolio22.jpg") center no-repeat;
+     background-size:cover;
+}
+
+ .portfolio23 {
+     background:url("img-optimized/portfolio23.jpg") center no-repeat;
      background-size:cover;
 }
  #viewMoreBtn {
