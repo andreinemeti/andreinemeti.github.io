@@ -218,6 +218,12 @@ nav, section, aside, header,h1,h2,h3,h4,h5,h6 {
      align-items:center;
      outline:none;
 }
+
+@media all and (min-width:2000px) {
+	.main-text {
+		    width: 40%;
+	}
+}
  .main-text h1 {
      font-size:40px; /*for the landing page only*/
      color:#E7E3E3;
