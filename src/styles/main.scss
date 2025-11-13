@@ -1,0 +1,18 @@
+// src/styles/main.scss
+
+// 1. Variables and base
+@import "base/variables";
+@import "base/reset";
+@import "base/animations";
+@import "base/media-queries";
+
+// 2. Layout & sections
+@import "layout/layout";
+
+// 3. Components
+@import "components/portfolio";
+@import "components/footer";
+@import "components/misc";
+
+// 4. Media queries
+
