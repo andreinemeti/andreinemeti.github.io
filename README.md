@@ -63,5 +63,8 @@ The goal was **not** to redesign it visually or add more functionality, but to k
 
 
 **Output:**
-- Static site in dist/
+- Static site in root folder (index.html and assets folder)
 - Final static site will be in dist/ (ready for Netlify, GitHub Pages, FTP, etc.).
+
+## DEPLOY
+- Just copy index.html and assets folder 
