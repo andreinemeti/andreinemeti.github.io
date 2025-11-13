@@ -39,13 +39,13 @@ The goal was **not** to redesign it visually or add more functionality, but to k
 
 -----------------------------------------------------------------
 ## Requirements
-
+-----------------
 - Node.js 18+  
 - npm
 
 
 ## CONFIGURE PROJECT
-
+-----------------
 1. `npm install`
 2. `npm install @11ty/eleventy sass --save-dev`
 3. `npm install npm-run-all --save-dev` - tiny helper package called npm-run-all to run multiple scripts in sequence or in parallel 
