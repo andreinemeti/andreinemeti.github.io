@@ -1,0 +1,37 @@
+// src/styles/base/_variables.scss
+
+// Fonts
+$font-primary: 'Montserrat', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
+
+// Core colors
+$color-black: #000000;
+$color-white: #ffffff;
+$color-text-light: #E7E3E3;
+$color-text-muted: #DDDADA;
+
+$color-accent-blue: #6dcdff;
+$color-accent-blue-soft: #8abdff;
+
+$color-cta-red-from: #c23636;
+$color-cta-red-to: #D31027;
+$color-cta-red-border: #880707;
+
+$color-viewmore-red: #BD2F2F;
+$color-bottom-red: #EC2424;
+$color-selection-red: #DE0A3F;
+
+$color-footer-bg: #262626;
+$color-footer-border: #2B2A2A;
+
+$color-page-bg-dark: #161616;
+
+// Shadows
+$shadow-strong: 0 19px 38px rgba(0, 0, 0, 0.3);
+$shadow-soft: 0 15px 12px rgba(0, 0, 0, 0.1);
+
+// Font sizes
+$font-size-base: 21.2px;
+$font-size-h1-landing: 40px;
+$font-size-h1-header: 33px;
+$font-size-cta: 18px;

@@ -1,0 +1,120 @@
+// src/styles/components/_footer.scss
+
+.footer {
+  display: flex;
+  color: $color-white;
+  margin: 0 auto;
+  text-align: center;
+  height: 350px;
+  background: $color-footer-bg;
+}
+
+.footer .left {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 70%;
+  border-right: 1px solid $color-footer-border;
+}
+
+.footer .left h2 {
+  border-bottom: 1px solid $color-white;
+  width: 250px;
+  margin: 0 auto;
+}
+
+form {
+  box-shadow: 0 59px 38px rgba(0, 0, 0, .3), 15px 0 12px rgba(0, 0, 0, .1);
+  height: 200px;
+}
+
+input[type="text"] {
+  margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  margin-left: 5px;
+  background: transparent;
+  color: $color-white;
+  width: 55%;
+  float: left;
+  height: 40px;
+  margin-bottom: 5px;
+  border: 1px solid $color-accent-blue-soft;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  background: $color-bottom-red;
+  border: 1px solid $color-bottom-red;
+  color: $color-white;
+  cursor: pointer;
+  transition: all .3s;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+
+button:focus {
+  outline: 0;
+}
+
+button[type="submit"]:hover {
+  background: transparent;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  font-family: Arial;
+  color: $color-white;
+}
+
+.footer .right {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 30%;
+}
+
+.footer .logo,
+.footer .logo img {
+  position: static;
+  cursor: initial;
+}
+
+.footer .social-icons .fa {
+  color: lightblue;
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  border: 1px solid lightblue;
+  border-radius: 10%;
+}
+
+.footer .social-icons .fa:hover {
+  border: 1px solid $color-white;
+  background: $color-white;
+  color: black;
+  transition: .5s all;
+}
+
+.copyright a,
+#bottom a {
+  text-decoration: none;
+  color: #8abdff;
+}
+
+.copyright a:hover {
+  color: #ABCEFC;
+}
