@@ -4,7 +4,7 @@
 @import "base/variables";
 @import "base/reset";
 @import "base/animations";
-@import "base/media-queries";
+
 
 // 2. Layout & sections
 @import "layout/layout";
@@ -13,6 +13,6 @@
 @import "components/portfolio";
 @import "components/footer";
 @import "components/misc";
-
+@import "base/media-queries";
 // 4. Media queries
 
