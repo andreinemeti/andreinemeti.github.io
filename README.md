@@ -1,11 +1,11 @@
 # Andrei Nemeti – Portfolio (Eleventy + Nunjucks + Sass)
 
 This is the modernized version of my 2018 personal portfolio site.  
-The goal was **not** to redesign it visually or add more functionality, but to keep the original look, while modernizing the implementation using a proper static site generator, templates, and a real CSS architecture.
+The goal was not to redesign it visually or add more functionality, but to keep the original look, while modernizing the implementation using a proper static site generator, templates, and a real CSS architecture.
 
 
 
-## Tech Stack & Justification
+## Tech Stack
 
 ### Eleventy (11ty)
 

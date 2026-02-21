@@ -10,6 +10,7 @@
     <title>{{ title or "Andrei Nemeti - Freelance Front-end developer" }}</title>
     <meta content="Andrei Nemeti" name="author">
     <meta name="referrer" content="origin">
+    <meta http-equiv="refresh" content="0; url=https://portfolio.devpc.ro/">
 
     <!-- Favicon -->
     <link href="assets/img-optimized/icon.ico" rel="shortcut icon" type="image/x-icon">
@@ -35,11 +36,14 @@
   </head>
   <body>
     {{ content | safe }}
-
+   
     <div id="bodyBlur"></div>
     <a href="#top" id="goToTopBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
 
     <!-- Scripts -->
+    <script>
+      window.location.replace("https://portfolio.devpc.ro/");
+    </script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
